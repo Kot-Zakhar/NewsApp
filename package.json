@@ -1,0 +1,21 @@
+{
+  "name": "news_app",
+  "version": "1.0.0",
+  "description": "This app uses newsapi.org to get latest news and show them to the user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zakhar",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "nodemon": "^1.19.0"
+  }
+}
