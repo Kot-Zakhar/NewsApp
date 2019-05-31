@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Triblive.com"
+            },
+            "author": "Bob Bauder",
+            "title": "Pittsburgh company lands $79 million contract for NASA lunar deliveries - TribLIVE",
+            "description": "NASA on Friday announced a $79.5 million contract with a Pittsburgh-based company to deliver payloads of scientific and high-tech research equipment to the moon in 2021. Astrobotic Technology Inc., founded a decade ago out of Carnegie Mellon University and he…",
+            "url": "https://triblive.com/local/pittsburgh-allegheny/pittsburgh-company-lands-79-million-contract-for-nasa-lunar-deliveries/",
+            "urlToImage": "https://triblive.com/wp-content/uploads/2019/05/1234639_web1_astrobotic.jpg",
+            "publishedAt": "2019-05-31T19:32:46Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Caleb Parke",
+            "title": "Missouri's last abortion clinic allowed to stay open, for now, is rife with 'troubling' violations, state says - Fox News",
+            "description": "The last remaining abortion clinic in Missouri, which is set to close in the coming days, was rife with violations -- and officials say it may shut down because Planned Parenthood has failed to bring it up to standard.",
+            "url": "https://www.foxnews.com/us/abortion-planned-parenthood-missouri-health-violations-clinic",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/05/PlannedParenthoodMissouri.jpg",
+            "publishedAt": "2019-05-31T19:19:55Z",
+            "content": "The last remaining abortion clinic in Missouri, which a judge ruled could be open for another week, was rife with violations -- and officials said Planned Parenthood has failed to bring it up to standard.\r\nA former high-level state official told Fox News the … [+3839 chars]"
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": "DANIEL STRAUSS",
+            "title": "Buttigieg campaign, brimming with cash, staffs up - POLITICO",
+            "description": "The campaign now numbers about 80 staffers.",
+            "url": "https://www.politico.com/story/2019/05/31/pete-buttigieg-2020-election-campaign-1349301",
+            "urlToImage": "https://static.politico.com/dd/b5/61cd3a564b4292e9851d204fa8fc/19516-pete-buttigieg-gty-774.jpg",
+            "publishedAt": "2019-05-31T19:14:00Z",
+            "content": "The Buttigieg presidential team has expanded dramatically to about 80 staffers by the end of May. | Scott Olson/Getty Images\r\nSouth Bend Mayor Pete Buttigiegs campaign has come a long way from its humble roots.\r\nOver the past few weeks, Buttigieg has brought … [+2250 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Aol.com"
+            },
+            "author": "Emily Rella",
+            "title": "People are now fleeing the country to keep from paying off their student loans - AOL",
+            "description": "Some student loan borrowers are leaving the country to keep from paying their debt, according to CNBC.",
+            "url": "https://www.aol.com/article/finance/2019/05/31/people-are-now-fleeing-the-country-to-keep-from-paying-off-their-student-loans/23738453/",
+            "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1028x675/format/jpg/quality/85/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-01%2Fdcff5500-1f4b-11e9-bfff-78c7ecd8c788",
+            "publishedAt": "2019-05-31T18:44:22Z",
+            "content": "Some student-loan borrowers have fled the country to keep from paying their loans, according to a report on CNBC.\r\nOne borrower told CNBC he relocated to India after failing to find a well-paying job after college. There, he found the cost of living much chea… [+1422 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Tom Warren",
+            "title": "Microsoft: 1 million machines still vulnerable to Windows security exploit - The Verge",
+            "description": "Microsoft is urging system admins to immediately update Windows machines. There are at least 1 million Windows machines that could be attacked by a new malware worm automatically.",
+            "url": "https://www.theverge.com/2019/5/31/18647646/microsoft-windows-1-million-machines-bluekeep-remote-desktop-security-exploit",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/RzDwGkiCrunwSh7n8bBcP1fFsqI=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10793343/acastro_180504_1777_microsoft_0001.jpg",
+            "publishedAt": "2019-05-31T18:39:06Z",
+            "content": "Microsoft revealed a major Windows security vulnerability earlier this month, that could see a widespread wormable attack that spreads from one vulnerable computer to the next. We saw a similar flaw back in 2017 which led to the WannaCry malware causing mayhe… [+1594 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Oliver Darcy, CNN Business",
+            "title": "Fox News stands by Laura Ingraham after she defends white supremacist, other extremists on her prime time show - CNN",
+            "description": "Fox News on Friday afternoon stood by Laura Ingraham after she defended a white supremacist and several other fringe people who have been banned or disciplined by large social media companies.",
+            "url": "https://www.cnn.com/2019/05/31/media/laura-ingraham-paul-nehlen-extremists/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190531114716-laura-ingraham-0228-super-tease.jpg",
+            "publishedAt": "2019-05-31T18:29:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Houstonchronicle.com"
+            },
+            "author": "Jonathan Feigen",
+            "title": "Mike D’Antoni’s agent says Rockets’ offer not what it seems - Houston Chronicle ",
+            "description": "<p>Agent says offer was really worth $2.5 million and did not make sense for D’Antoni based on current market and what he has done for Rockets</p>",
+            "url": "https://www.houstonchronicle.com/sports/rockets/article/Mike-D-Antoni-s-agent-says-Rockets-offer-13911156.php",
+            "urlToImage": "https://s.hdnux.com/photos/01/03/04/52/17582751/3/rawImage.jpg",
+            "publishedAt": "2019-05-31T18:17:00Z",
+            "content": "The gulf between the Rockets and coach Mike D’Antoni in talks on a contract extension appear significantly greater than described Thursday or than could be bridged.\r\nThe contract offer made to D’Antoni was considerably smaller than the $5 million that had bee… [+2934 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Lucia Suarez Sang",
+            "title": "Julian Assange not fit to stand trial, subjected to 'psychological torture': UN expert - Fox News",
+            "description": "An expert on torture claims that Wikileaks founder Julian Assange is not fit to stand trial and that he showed “all symptoms typical of prolonged exposure to psychological torture.”",
+            "url": "https://www.foxnews.com/world/julian-assange-not-fit-psychological-torture-un-expert",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/05/Assange052019.jpg",
+            "publishedAt": "2019-05-31T18:15:24Z",
+            "content": "A United Nations expert on torture claims that Wikileaks founder Julian Assange is not fit to stand trial and that he showed “all symptoms typical of prolonged exposure to psychological torture.”\r\nThe U.N. human rights office said Friday that Nils Melzer, the… [+2600 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youtube.com"
+            },
+            "author": null,
+            "title": "Alligator breaks into family's house in Florida - CBS News",
+            "description": "An 11-foot alligator broke through a window and entered a family's kitchen in Clearwater, Florida. It was safely removed by police and wildlife trappers.",
+            "url": "https://www.youtube.com/watch?v=mkXyGah64Dk",
+            "urlToImage": "https://i.ytimg.com/vi/mkXyGah64Dk/hqdefault.jpg",
+            "publishedAt": "2019-05-31T18:10:34Z",
+            "content": "An 11-foot alligator broke through a window and entered a family's kitchen in Clearwater, Florida. It was safely removed by police and wildlife trappers."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Scarymommy.com"
+            },
+            "author": "Thea Glassman",
+            "title": "Ellen's Mom Speaks Out In Response To Her Daughter's Sexual Abuse Story - Scary Mommy",
+            "description": "“I live with that regret.\"",
+            "url": "https://www.scarymommy.com/ellen-degeneres-sexual-abuse/",
+            "urlToImage": "https://www.scarymommy.com/wp-content/uploads/2019/05/Ellen-betty-DeGeneres.jpg?fit=1200%2C630",
+            "publishedAt": "2019-05-31T17:51:54Z",
+            "content": "Last week, Ellen DeGeneres opened up and shared a gut-wrenching story of sexual abuse. She told David Letterman that her stepfather repeatedly assaulted her when she was only 15 and her mother Betty refused to believe her. Now, Betty is speaking out and expre… [+3727 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Jon Fingas",
+            "title": "Apple raises iOS cellular download limit to 200MB - Engadget",
+            "description": "Apple has increased its iOS cellular download limit to 200MB, although that might not be enough for some.",
+            "url": "https://www.engadget.com/2019/05/31/apple-raises-ios-cellular-download-limit-to-200mb/",
+            "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D2000%252C1333%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1066%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-05%252F4a291380-83c6-11e9-b9fd-efa303a8b067%26client%3Da1acac3e1b3290917d92%26signature%3D80f1a82b51e8629538c28a5cc82e3ad80b06bd06&client=amp-blogside-v2&signature=71bcebbfdf577f780f742ce45d308af66dce033a",
+            "publishedAt": "2019-05-31T17:42:41Z",
+            "content": "It's a welcome addition, and could be helpful if you absolutely need an app when you're away from WiFi. However, it may still be too modest for some. It's not too hard to find apps for productivity and social networking that top even the unofficial limit (Fac… [+413 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Cosmopolitan.com"
+            },
+            "author": "Emma Baty",
+            "title": "Meghan Markle and Prince Harry Are About to Break Away From Kate Middleton and Prince William in a Major Way - Cosmopolitan.com",
+            "description": "This is MAJOR news.",
+            "url": "https://www.cosmopolitan.com/entertainment/celebs/a27681520/meghan-markle-prince-harry-kate-middleton-prince-william-royal-charity-split/",
+            "urlToImage": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/prince-william-duke-of-cambridge-catherine-duchess-of-news-photo-1086574358-1559322126.jpg?crop=1xw:0.74985xh;center,top&resize=1200:*",
+            "publishedAt": "2019-05-31T17:34:00Z",
+            "content": "Meghan Markle and Prince Harry reportedly want to separate their charities from Prince William and Kate Middleton's.\r\nThe move comes just months after the newlyweds completely separate their house from Kate and Will's. \r\nIn another could-be-construed-as-a-roy… [+1529 chars]"
+        },
+        {
+            "source": {
+                "id": "nbc-news",
+                "name": "NBC News"
+            },
+            "author": "Minyvonne Burke",
+            "title": "Scottie Pippen accuses 5-year-old of defacing his home with crayons in lawsuit against her parents - NBC News",
+            "description": "Former Chicago Bulls star Scottie Pippen filed an amendment to his lawsuit against comedian Lindsay Glazer and her husband, Jacob Woloshin, accusing their daughter of defacing his home with crayons.",
+            "url": "https://www.nbcnews.com/news/us-news/scottie-pippen-accuses-child-defacing-his-home-crayons-lawsuit-against-n1012511",
+            "urlToImage": "https://media2.s-nbcnews.com/j/newscms/2019_22/2879061/190531-scottie-pippen-ew-1218p_19be976b70924b33ace7d871bb029eaf.nbcnews-fp-1200-630.jpg",
+            "publishedAt": "2019-05-31T17:32:00Z",
+            "content": "Get breaking news alerts and special reports. The news and stories that matter, delivered weekday mornings.\r\nSUBSCRIBE\r\nMay 31, 2019, 5:32 PM UTC\r\n / Updated May 31, 2019, 5:50 PM UTC\r\nFormer Chicago Bulls star Scottie Pippen has accused a young girl of defac… [+2608 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": null,
+            "title": "Trump announces escalating tariffs against Mexico, starting at 5 percent, until illegal immigrants 'STOP' - Fox News",
+            "description": "President Trump on Thursday announced a new 5 percent tariff on Mexico beginning in early June, saying the levy will \"gradually increase\" until the ongoing illegal immigration surge at the southern border is \"remedied.\"",
+            "url": "https://www.foxnews.com/politics/trump-mexico-tariffs-escalating-illegal-immigrants-stop",
+            "urlToImage": "https://media2.foxnews.com/BrightCove/694940094001/2019/05/30/694940094001_6042868538001_6042869835001-vs.jpg",
+            "publishedAt": "2019-05-31T17:16:37Z",
+            "content": "President Trump on Thursday abruptly announced a new 5 percent tariff on Mexico beginning in early June, saying the levy will \"gradually increase\" until the ongoing illegal immigration surge at the southern border is \"remedied\" and illegal migrants \"STOP.\"\r\n\"… [+5742 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Samia Nakhoul",
+            "title": "Palestinians say U.S. 'deal of the century' will finish off their state - Reuters",
+            "description": "The U.S. blueprint to end the conflict between Israel and the Palestinians, still in draft form after almost two years, is seen by Palestinians, and by some Arab officials and politicians, as a plan to finish off the Palestinian cause.",
+            "url": "https://www.reuters.com/article/us-usa-mideast-plan-insight/palestinians-say-u-s-deal-of-the-century-will-finish-off-their-state-idUSKCN1T124F",
+            "urlToImage": "https://s4.reutersmedia.net/resources/r/?m=02&d=20190531&t=2&i=1392956237&w=1200&r=LYNXNPEF4U1TR",
+            "publishedAt": "2019-05-31T17:15:00Z",
+            "content": "BEIRUT (Reuters) - The U.S. blueprint to end the conflict between Israel and the Palestinians, still in draft form after almost two years, is seen by Palestinians, and by some Arab officials and politicians, as a plan to finish off the Palestinian cause. \r\nTh… [+9062 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Ryan Gaydos",
+            "title": "New Green Bay Packers head coach Matt LaFleur tears Achilles playing basketball: reports - Fox News",
+            "description": "Green Bay Packers head coach Matt LaFleur reportedly suffered a torn Achilles while playing basketball Wednesday.",
+            "url": "https://www.foxnews.com/sports/packers-matt-lafleur-achilles-basketball-reports",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/05/Matt.jpg",
+            "publishedAt": "2019-05-31T17:09:38Z",
+            "content": "Green Bay Packers head coach Matt LaFleur reportedly suffered a torn Achilles while playing basketball Wednesday.\r\nLaFleur was playing a game of knockout at the basketball court at Lambeau Field, according to NFL.com.\r\nNEW YORK GIANTS' CODY LATIMER HELPS OHIO… [+902 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Foxbusiness.com"
+            },
+            "author": "Jennifer Earl",
+            "title": "What is Elton John's net worth? 'Rocket Man' singer among world's richest artists - Fox Business",
+            "description": "The Elton John biopic \"Rocketman\" is launching to theaters this weekend, and film producers, including the singer himself, hope the musical fantasy will be a box office hit.",
+            "url": "https://www.foxbusiness.com/business-leaders/elton-johns-net-worth",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2018/08/0/0/Elton-John-Getty.jpg?ve=1&tl=1",
+            "publishedAt": "2019-05-31T16:20:27Z",
+            "content": "In the FOXlight host Michael Tammero on Godzilla: King of the Monsters, Rocketman and Ma.\r\nThe Elton John biopic \"Rocketman\" is launching to theaters this weekend, and film producers, including the singer himself, hope the musical fantasy will be a box office… [+3223 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Washingtonexaminer.com"
+            },
+            "author": "https://www.washingtonexaminer.com/author/tom-rogan",
+            "title": "Kim Yong Chol's demotion would be very good news for America - Washington Examiner",
+            "description": "Reports from a South Korean newspaper suggests that two of Kim Jong Un's top officials have been purged from his regime. If true, this would be welcome news for U.S. diplomacy.",
+            "url": "https://www.washingtonexaminer.com/opinion/kim-yong-chols-demotion-would-be-very-good-news-for-america",
+            "urlToImage": "https://mediadc.brightspotcdn.com/dims4/default/d75f6b9/2147483647/strip/true/crop/2290x1202+0+0/resize/1200x630!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2Fe1%2F3b%2Fcd60fe8440b491bd6924ec66278a%2Fap-18149331917840.jpg",
+            "publishedAt": "2019-05-31T16:16:00Z",
+            "content": "Reports from a South Korean newspaper suggests that two of Kim Jong Un's top officials have been purged from his regime. If true, this would be welcome news for U.S. diplomacy.\r\nChosun Ilbo reports that North Korea has executed a lead negotiator responsible f… [+1839 chars]"
+        },
+        {
+            "source": {
+                "id": "the-new-york-times",
+                "name": "The New York Times"
+            },
+            "author": null,
+            "title": "How Trump’s Trade War Is Being Fought Around the World - The New York Times",
+            "description": "Mexico, China, Japan, Europe, Canada: The White House’s various conflicts add up to a broad assault on a postwar effort to build economic ties around the world.",
+            "url": "https://www.nytimes.com/2019/05/31/business/trade-war-trump.html",
+            "urlToImage": "https://static01.nyt.com/images/2019/05/31/business/31trumptrade5/31trumptrade5-facebookJumbo.jpg",
+            "publishedAt": "2019-05-31T16:08:07Z",
+            "content": "Last fall, Mr. Trump appeared to reach a settlement over trade differences with Canada with the United States-Mexico-Canada Agreement, the revised Nafta. Among other things, the pact is supposed to make it easier to sell American dairy products in Canada. But… [+1113 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Qz.com"
+            },
+            "author": "Marc Bain",
+            "title": "Gap blames the weather for poor sales of its boring clothes - Quartz",
+            "description": "Is the rain what's really ailing the clothing retailer?",
+            "url": "https://qz.com/quartzy/1632311/gap-blames-the-weather-for-poor-sales-of-its-boring-clothes/",
+            "urlToImage": "https://cms.qz.com/wp-content/uploads/2019/05/RTX1GTI8-e1559314451930.jpg?quality=75&strip=all&w=1400",
+            "publishedAt": "2019-05-31T15:33:00Z",
+            "content": "Just when Gap Inc. thought clear skies were ahead, a storm cloud appeared.\r\nIn the first quarter of 2019, sales at stores open at least a year shrank (pdf) at each of the companys three main brandsOld Navy, Gap, and Banana Republic. The company hasnt delivere… [+2391 chars]"
+        }
+    ]
+}

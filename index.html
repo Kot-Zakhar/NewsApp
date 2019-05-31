@@ -3,34 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Web Page</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Latest news</title>
+    <script src="https://kit.fontawesome.com/29d760e65b.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="src/css/style.css">
+      
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand">Latest news</a>
+        <a class="navbar-item" href="https://newsapi.org">powered by NewsAPI.org</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </nav>
     
-</head>
-<body>
-    <header class="container">
-        <div>
-            <p>Monday, 29 April 2019</p>
-        </div>
-        <div>
-            <i class="fa fa-search"></i>
-            <input type="text" name="search"  id="search-field" placeholder="Search..." class="form-control"/>
-            <input type="button" name="btn-search" id="search-btn" value="Search">
-        </div>
-    </header> 
-    <!-- <div class="bottom-line">
-        <p></p>
-    </div> -->
-    <div>
-        <h1 class="title">HELLO WORLD</h1>
-    </div>
-    <div class="subtitle">
-        <h2>Newspaper/ Magazine /Publisher</h2>
-    </div>
-    
-    <main class="main">
+    <!-- <main class="main">
         <div class="bottom-line">
             <p></p>
         </div>
@@ -41,9 +30,47 @@
         </div>
         <h2 class="content-error" id="error-block" style="display: none;">There are no articles matching your request<p></p></h2>
         <input type="button" class="more-btn" id="loadButton" value="Load more">
-    </main>
+    </main> -->
+
+    
+    <div class="card">
+        <div class='card-header'>
+          <!-- title -->
+          <h3>Pittsburgh company lands $79 million contract for NASA lunar deliveries - TribLIVE</h3>
+        </div>
+
+        <div class="row no-gutters align-items-center">
+          <div class="col-12 col-lg-6 col-xl-7 text-center">
+            <!-- url2img -->
+            <img class="card-img p-lg-3" src="https://static.foxnews.com/foxnews.com/content/uploads/2019/05/PlannedParenthoodMissouri.jpg" alt="image">
+          </div>
+          
+          <div class="col-12 col-lg-6 col-xl-5">
+            
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <!-- description -->
+                <p>NASA on Friday announced a $79.5 million contract with a Pittsburgh-based company to deliver payloads of scientific and high-tech research equipment to the moon in 2021. Astrobotic Technology Inc., founded a decade ago out of Carnegie Mellon University and he…</p>
+                <!-- author + sourceName-->
+                <footer class="blockquote-footer">Bob Bauder - <cite title="Source Title">Triblive.com</cite></footer>
+              </blockquote>
+             <!-- url -->
+              <button class="btn btn-outline-success btn-lg btn-block" href="https://triblive.com/local/pittsburgh-allegheny/pittsburgh-company-lands-79-million-contract-for-nasa-lunar-deliveries/">learn more</button>
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="card-footer text-muted text-center">
+          <!-- published at -->
+          <h5>2019-05-31</h5>
+        </div>
+          
+      </div>
 
     <template id="news-template">
+
+
         <div class="news-template__item">
             <div class="news-template__item news__picture">
                 
@@ -56,8 +83,9 @@
             </div>
         </div>
     </template>
-    <script type="text/javascript" src="./lib/main.js"></script>
+    <script type="text/javascript" src="./build/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+  </body>
+</html>
