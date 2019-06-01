@@ -7,6 +7,7 @@ var log = debug('model');
 export default class Model{
 
     constructor(Controller){
+        this.defaultParams = { country: "us" };
         this.controller = Controller;
         this.view = new View(this.controller, this);
         
@@ -27,7 +28,7 @@ export default class Model{
         log("request: ", params);
 
         if (params == null)
-            params = { country: "us" };
+            params = this.defaultParams;
         let query = Env.api.name + apiInfo.name + "?";
         let queryParams = apiInfo.params.map( paramName => {
             if (params[paramName] != undefined)
@@ -95,7 +96,7 @@ export default class Model{
         let response = this.GetRequest(params, Env.api.topHeadlines);
         log("got response:", response)
         if (response.status == "ok"){
-            this.lastQueryParams = params ? params : {};
+            this.lastQueryParams = params ? params : this.defaultParams;
             this.pagesLoaded = params && params.page ? params.page : 1;
             this.newsAvailable = response.totalResults;
         }
