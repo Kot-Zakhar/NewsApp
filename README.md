@@ -1,16 +1,16 @@
 # NewsApi app
-This project shows the basic usage of remote api.
-News are requested from [News Api](https://newsapi.org).
-Current site can be viewed on [github-pages](https://kot-zakhar.github.io/NewsApp/).
+This project shows the basic usage of remote api.<hr>
+News are requested from [News Api](https://newsapi.org).<hr>
+Current site can be viewed on [github-pages](https://kot-zakhar.github.io/NewsApp/).<hr><hr>
 
 ### Basic usage
-From the start 5 top news are loaded.
-You can load more (5 per click) news by clicking "Load more"-button at the bottom of the site.
-40 - max amount of news available to see.
+From the start 5 top news are loaded.<hr>
+You can load more (5 per click) news by clicking "Load more"-button at the bottom of the site.<hr>
+40 - max amount of news available to see.<hr>
 
 ### Search
-You can search news using a seach form at the top right corner of the screen.
-
+You can search news using a seach form at the top right corner of the screen.<hr>
+<hr>
 
 
 ## Development
@@ -21,10 +21,9 @@ For development you need several tools to be installed globaly:
 - gh-pages.
 
 For running this site on the local machine type following into you terminal:
-...
-npm install
-nodemon
-...
+- `npm install`
+- `nodemon`
+
 
 There are some available commands:
 * `npm run open` - simply runs site in your default browser;
@@ -35,5 +34,5 @@ There are some available commands:
 
 
 ## Nodemon tool
-Nodemon is watching for every change in your root directory and runs recompilation if needed.
+Nodemon is watching for every change in your root directory and runs recompilation if needed.<hr>
 It's very usefull tool for development.
