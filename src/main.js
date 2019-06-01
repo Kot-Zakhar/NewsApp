@@ -1,4 +1,12 @@
-import Application from './src/js/app';
+import Controller from './js/controller';
+import debug from 'debug';
+import env from '../env';
 
-const App = new Application();
-App.start();
+if (env.mode = "dev")
+    debug.enable(env.debug);
+else
+    debug.disable();
+
+
+const controller = new Controller();
+controller.start();

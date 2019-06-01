@@ -1,5 +1,8 @@
 #ignoring node modules
 \node_modules
 
-#ignorint translated files
-\build
+#ignoring translated files
+\dist
+
+#ignoring vscode files
+\.vscode

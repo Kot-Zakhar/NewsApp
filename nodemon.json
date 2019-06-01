@@ -1,0 +1,15 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        "dist/"
+    ],
+    "delay": 10,
+    "env": {
+        "DEBUG": "-babel"
+    },
+    "ext": "js json html",
+    "verbose": true,
+    "execMap":{
+        "js": "npm run clean && npm run webpack"
+    }
+}

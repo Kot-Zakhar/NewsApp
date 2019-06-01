@@ -3,26 +3,27 @@
   "version": "1.0.0",
   "description": "This app uses newsapi.org to get latest news and show them to the user.",
   "scripts": {
-    "webpack": "npm run clean && webpack",
+    "webpack": "webpack",
     "clean": "rm -rf dist",
     "open": "xdg-open ./index.html",
-
-    "nodemon": "npm run open && nodemon -e js -i dist/* --exec npm run webpack"
+    "nodemon": "nodemon & npm run open"
   },
   "author": "Zakhar",
   "license": "ISC",
+  "main": "./src/main.js",
   "dependencies": {
     "gh-pages": "^2.0.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.4.5",
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
-    "webpack": "^4.31.0",
-    "webpack-cli": "^3.3.2",
     "chalk": "^2.4.2",
     "debug": "^4.1.1",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "supports-color": "^6.1.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   }
 }
