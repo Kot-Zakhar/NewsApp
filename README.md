@@ -1,16 +1,16 @@
 # NewsApi app
-This project shows the basic usage of remote api.<hr>
-News are requested from [News Api](https://newsapi.org).<hr>
-Current site can be viewed on [github-pages](https://kot-zakhar.github.io/NewsApp/).<hr><hr>
+This project shows the basic usage of remote api.<br>
+News are requested from [News Api](https://newsapi.org).<br>
+Current site can be viewed on [github-pages](https://kot-zakhar.github.io/NewsApp/).<br><br>
 
 ### Basic usage
-From the start 5 top news are loaded.<hr>
-You can load more (5 per click) news by clicking "Load more"-button at the bottom of the site.<hr>
-40 - max amount of news available to see.<hr>
+From the start 5 top news are loaded.<br>
+You can load more (5 per click) news by clicking "Load more"-button at the bottom of the site.<br>
+40 - max amount of news available to see.<br>
 
 ### Search
-You can search news using a seach form at the top right corner of the screen.<hr>
-<hr>
+You can search news using a seach form at the top right corner of the screen.<br>
+<br>
 
 
 ## Development
@@ -34,5 +34,5 @@ There are some available commands:
 
 
 ## Nodemon tool
-Nodemon is watching for every change in your root directory and runs recompilation if needed.<hr>
+Nodemon is watching for every change in your root directory and runs recompilation if needed.<br>
 It's very usefull tool for development.
