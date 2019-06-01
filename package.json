@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This app uses newsapi.org to get latest news and show them to the user.",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "webpack": "webpack",
     "clean": "rm -f dist/main.js",
     "open": "xdg-open ./index.html",
@@ -11,9 +12,6 @@
   "author": "Zakhar",
   "license": "ISC",
   "main": "./src/main.js",
-  "dependencies": {
-    "gh-pages": "^2.0.1"
-  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
