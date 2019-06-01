@@ -5,8 +5,10 @@ import env from '../env';
 if (env.mode = "dev")
     debug.enable(env.debug);
 else
+{
     debug.disable();
+}
 
 
 const controller = new Controller();
-controller.start();
+controller.Init();

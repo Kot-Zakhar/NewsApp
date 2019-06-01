@@ -1,9 +1,41 @@
 import Env from '../../env';
-var debug = require("debug")('view');
+import debug from 'debug';
+
+var log = debug('view');
 
 export default class View{
-    constructor(){
+    constructor(Controller, Model){
+        this.model = Model;
+        this.controller = Controller;
+    }
 
+    ToggleAlert(hidden = false, alertId, message){
+        let alert = document.querySelector(alertId);
+        if (hidden){
+            alert.setAttribute("hidden", true);
+        }
+        else
+        {
+            alert.removeAttribute('hidden');
+            log("alert " + alertId);
+            setTimeout(this.ToggleAlert, Env.alerts.timeout, true, alertId, "");
+        }
+        if (message){
+            document.querySelector(alertId).textContent = message;
+        }
+
+    }
+
+    ToggleErrorAlert(message){
+        this.ToggleAlert(false, "#error", message);
+    }
+
+    ToggleBottomInfoAlert(message){
+        this.ToggleAlert(false, "#bottomInfo", message);
+    }
+
+    ToggleTopInfoAlert(message){
+        this.ToggleAlert(false, "#topInfo", message);
     }
 
     /**
@@ -18,7 +50,7 @@ export default class View{
         * content
      * }
     */
-    FillFragmentWithInfo(fragment, info){
+    FillNewsFragmentWithInfo(fragment, info){
         fragment.querySelector(".newsTitle").textContent = info['title'];
         fragment.querySelector(".newsImg").setAttribute("src", info['urlToImage'] ? info['urlToImage'] : Env.noImageSrc);
         fragment.querySelector(".newsDescription").textContent = info['description'];
@@ -29,41 +61,57 @@ export default class View{
     }
 
     AddNews(news){
-        let newNews = document.createDocumentFragment();
-        let pieceOfNewsTemplate = document.querySelector("#newsTemplate");
-        news.forEach(pieceOfNews => {
-            // debug(pieceOfNews);
-            let pieceOfNewsFragment = pieceOfNewsTemplate.content ? 
-                pieceOfNewsTemplate.content.cloneNode(true).querySelector('.pieceOfNews')
-                : pieceOfNewsFragment.querySelector(".pieceOfNews").cloneNode(true);
-            this.FillFragmentWithInfo(pieceOfNewsFragment, pieceOfNews);
-            newNews.appendChild(pieceOfNewsFragment);
-        })
         
-        document.querySelector("#news").appendChild(newNews);
+        if (Array.isArray(news) && news.length){
+            let newNews = document.createDocumentFragment();
+            let pieceOfNewsTemplate = document.querySelector("#newsTemplate");
+            log(pieceOfNewsTemplate);
+            news.forEach(pieceOfNews => {
+                let pieceOfNewsFragment = pieceOfNewsTemplate.content.cloneNode(true).querySelector('.pieceOfNews');
+                this.FillNewsFragmentWithInfo(pieceOfNewsFragment, pieceOfNews);
+                newNews.appendChild(pieceOfNewsFragment);
+            })
+            
+            document.querySelector("#news").appendChild(newNews);
+        } else {}
     }
 
     CleanNews(){
         document.querySelector("#news").textContent = "";
     }
 
-    ToggleAlert(hidden = false){
-        let alert = document.querySelector("#error");
-        if (hidden){
-            alert.setAttribute("hidden", true);
-        }
-        else
-            alert.removeAttribute('hidden');
-    }
-
     ShowNews(news){
-        debug(news);
         if (Array.isArray(news) && news.length){
-            // debug("showing news: " + JSON.stringify(news));
             this.CleanNews();
             this.AddNews(news);
+            this.ToggleTopInfoAlert(Env.alerts.loaded);
         } else {
-            this.ToggleAlert();
+            this.ToggleErrorAlert(Env.alerts.noNews);
         }
     }
+
+    ShowSources(sources){
+        if (Array.isArray(sources) && sources.length){
+            let sourcesFragment = document.createDocumentFragment();
+            let sourceTemplate = document.querySelector("#sourceTemplate");
+            sources.forEach(source => {
+                let sourceFragment = sourceTemplate.content.cloneNode(true).querySelector(".source");
+                
+                sourceFragment.querySelector(".sourceName").textContent = source.name;
+                sourceFragment.querySelector(".btn").setAttribute("id", source.id);
+                sourceFragment.querySelector(".btn").addEventListener("click", () => this.controller.SourceSelected(source.id));
+                sourcesFragment.appendChild(sourceFragment);
+            })
+            
+            document.querySelector("#sources").appendChild(sourcesFragment);
+        } else {
+            log("error in showing sources");
+        }
+    }
+
+    HighlightSource(sourceId){
+        let sourcesFragments = document.querySelectorAll("#sources .source");
+        log(sourcesFragments);
+    }
+
 }

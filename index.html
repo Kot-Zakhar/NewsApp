@@ -10,24 +10,26 @@
       
   </head>
   <body class="container">
-    <nav class="navbar navbar-light">
+    <nav class="navbar navbar-light px-0">
         <a class="navbar-brand">Latest news</a>
-        <a class="navbar-item" href="https://newsapi.org">powered by NewsAPI.org</a>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-        </form>
+        <div class="d-flex flex-row">
+          <input class="form-control mr-sm-2" id="searchText" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton"><i class="fas fa-search"></i></button>
+        </div>
     </nav>
     
-    <div id="sources"></div>
-
-    <div id="news">
-
+    <div class="row my-3" id="sources">
     </div>
 
-    <div id="error" class="alert alert-danger text-center" role="alert" hidden>There are no articles matching your request.</div>
+    <div id="error" class="alert alert-danger text-center" role="alert" hidden></div>
+    <div id="topInfo" class="alert alert-info text-center" role="alert" hidden></div>
 
-    <button type="button" class="btn btn-primary btn-lg btn-block">Load more</button>
+    <div id="news">
+    </div>
+
+    <div id="bottomInfo" class="alert alert-info text-center" role="alert" hidden></div>
+
+    <button id="loadMore" type="button" class="btn btn-primary btn-lg btn-block">Load more</button>
     
     <!-- <div class="card my-3">
       <div class='card-header'>
@@ -53,41 +55,52 @@
       </div>    
     </div> -->
 
-    <template id="newsTemplate">
+    
+    <div class="w-100 text-center py-3">
+      <a class="navbar-item" href="https://newsapi.org">powered by NewsAPI.org</a>
+    </div>
 
-      <div class="pieceOfNews">
-        <div class="card my-3">
-          <div class='card-header'>
-            <!-- title -->
-            <h3 class="newsTitle"></h3>
-          </div>
-      
-          <div class="row no-gutters align-items-center">
-            <div class="col-12 col-lg-6 col-xl-5 text-center">
-              <!-- url2img -->
-              <img class="card-img p-lg-3 newsImg" src="" alt="image">
-            </div>
-  
-            <div class="col-12 col-lg-6 col-xl-7">
-              <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                  <!-- description -->
-                  <p class="newsDescription"></p>
-                  <!-- author + sourceName-->
-                  <footer class="blockquote-footer"><p class="newsAuthor"></p> - <cite class="newsSourceName"></cite></footer>
-                </blockquote>
-                <!-- url -->
-                <a class="btn btn-outline-success btn-lg btn-block newsUrl" href="">Learn more</a>
-              </div>
-            </div>
-          </div>
-          <div class="card-footer text-muted text-center">
-            <!-- published at -->
-            <h5 class="newsPublishedAt"></h5>
-          </div>
-        </div>
+    <template id="sourceTemplate">
+      <div class="col-auto source">
+        <div class="btn btn-light mr-2"><p class="sourceName my-0"></p></div>
       </div>
     </template>
+    
+    <template id="newsTemplate">
+        <div class="pieceOfNews">
+          <div class="card my-3">
+            <div class='card-header'>
+              <!-- title -->
+              <h3 class="newsTitle"></h3>
+            </div>
+        
+            <div class="row no-gutters align-items-center">
+              <div class="col-12 col-md-5 col-xl-4 text-center">
+                <!-- url2img -->
+                <img class="card-img p-sm-3 newsImg" src="" alt="image">
+              </div>
+    
+              <div class="col-12 col-md-7 col-xl-8">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <!-- description -->
+                    <p class="newsDescription"></p>
+                    <!-- author + sourceName-->
+                    <footer class="blockquote-footer"><p class="newsAuthor"></p> - <cite class="newsSourceName"></cite></footer>
+                  </blockquote>
+                  <!-- url -->
+                  <a class="btn btn-outline-success btn-lg btn-block newsUrl" href="">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer text-muted text-center">
+              <!-- published at -->
+              <h5 class="newsPublishedAt"></h5>
+            </div>
+          </div>
+        </div>
+      </template>
+
     <script type="text/javascript" src="./dist/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

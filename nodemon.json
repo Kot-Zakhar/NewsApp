@@ -7,7 +7,7 @@
     "env": {
         "DEBUG": "-babel"
     },
-    "ext": "js json html",
+    "ext": "js json html css",
     "verbose": true,
     "execMap":{
         "js": "npm run clean && npm run webpack"

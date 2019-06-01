@@ -3,8 +3,7 @@ export default {
         apiKey: "7212e3966b5c450fa48c618ebf60d8f0",
         page: 1,
         lang: "en",
-        pageSize: 10,
-        country: "us"
+        pageSize: 5
     },
     api: {
         name: "https://newsapi.org/v2/",
@@ -17,6 +16,16 @@ export default {
             params: ['apiKey', 'country', 'language', 'category']
         }
     },
+    alerts: {
+        timeout: 3000,
+        noNews: "There are no news matching your request.",
+        noMewsLeft: "There are no more news left.",
+        loaded: "Available news are loaded."
+    },
+    search: {
+        minLength: 3
+    },
+    maxNewsAllowed: 40,
     noImageSrc: "./src/img/noImgProvided.png",
     mode: "dev",
     debug: "*,-babel"
