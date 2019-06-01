@@ -1,0 +1,14 @@
+#sources.row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0;
+}
+
+#sources.row::-webkit-scrollbar{
+    display: none;
+}
+
+#sources.row .col {
+    display: inline-block;
+    /* float:none */
+}
