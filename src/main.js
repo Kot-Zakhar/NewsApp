@@ -1,12 +1,15 @@
 import Controller from './js/controller';
 import debug from 'debug';
 import env from '../env';
+// import gh from 'gh-pages';
 
-if (env.mode = "dev")
-    debug.enable(env.debug);
+if (env.prod){
+    debug.disable();
+    // gh.publish
+}
 else
 {
-    debug.disable();
+    debug.enable(env.debug);
 }
 
 

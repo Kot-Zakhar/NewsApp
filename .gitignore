@@ -1,8 +1,8 @@
 #ignoring node modules
-\node_modules
+node_modules
 
 #ignoring translated files
-\dist
+dist/main.js
 
 #ignoring vscode files
-\.vscode
+.vscode

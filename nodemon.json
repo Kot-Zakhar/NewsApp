@@ -1,7 +1,7 @@
 {
     "restartable": "rs",
     "ignore": [
-        "dist/"
+        "dist/main.js"
     ],
     "delay": 10,
     "env": {

@@ -26,8 +26,11 @@ export default {
         minLength: 3
     },
     maxNewsAllowed: 40,
-    noImageSrc: "./src/img/noImgProvided.png",
-    mode: "dev",
-    debug: "*,-babel"
+    noImageSrc: "./img/noImgProvided.png",
+    prod: "false",
+    debug: "*",
+    gpOptions: {
+
+    }
     //mode: "prod",
 }

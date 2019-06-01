@@ -4,7 +4,7 @@
   "description": "This app uses newsapi.org to get latest news and show them to the user.",
   "scripts": {
     "webpack": "webpack",
-    "clean": "rm -rf dist",
+    "clean": "rm -f dist/main.js",
     "open": "xdg-open ./index.html",
     "nodemon": "nodemon & npm run open"
   },
