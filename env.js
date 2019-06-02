@@ -29,7 +29,4 @@ export default {
     noImageSrc: "./img/noImgProvided.png",
     prod: true,
     debug: "*",
-    gpOptions: {
-
-    }
 }

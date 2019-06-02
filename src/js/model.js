@@ -31,11 +31,10 @@ export default class Model{
             params = this.defaultParams;
         let query = Env.api.name + apiInfo.name + "?";
         let queryParams = apiInfo.params.map( paramName => {
-            if (params[paramName] != undefined)
-                return paramName + '=' + params[paramName];
-            else if (Env.defaultQuery[paramName] != undefined)
-                return paramName + '=' + Env.defaultQuery[paramName];
-            else
+            let paramValue = (params[paramName] || Env.defaultQuery[paramName] || null);
+            if (paramValue){
+                return paramName + '=' + paramValue;
+            } else 
                 return null;
         }).filter(e => e);
         
