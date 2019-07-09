@@ -98,8 +98,11 @@ export default class View{
                 let sourceFragment = sourceTemplate.content.cloneNode(true).querySelector(".source");
                 
                 sourceFragment.querySelector(".sourceName").textContent = source.name;
-                sourceFragment.querySelector(".btn").setAttribute("id", source.id);
-                sourceFragment.querySelector(".btn").addEventListener("click", () => this.controller.SourceSelected(source.id));
+                ((btn) => {
+                    btn.setAttribute("id", source.id);
+                    btn.addEventListener("click", () => this.controller.SourceSelected(source.id));
+                    btn.classList.add(Env.styles.notSelectedSourceClass);
+                }) (sourceFragment.querySelector(".btn"));
                 sourcesFragment.appendChild(sourceFragment);
             })
             
@@ -109,9 +112,24 @@ export default class View{
         }
     }
 
-    HighlightSource(sourceId){
-        let sourcesFragments = document.querySelectorAll("#sources .source");
-        log(sourcesFragments);
+    HighlightSource(sourceId) {
+        // let sourcesFragments = document.querySelectorAll("#sources .source");
+        let sourceFragment = document.getElementById(sourceId);
+        if (sourceFragment) {
+            sourceFragment.classList.add(Env.styles.selectedSourceClass);
+            sourceFragment.classList.remove(Env.styles.notSelectedSourceClass);
+        }
+        log(sourceId + ' is selected.');
+    }
+
+    DehighlightSource(sourceId) {
+        let sourceFragment = document.getElementById(sourceId);
+        if (sourceFragment) {
+            sourceFragment.classList.remove(Env.styles.selectedSourceClass);
+            sourceFragment.classList.add(Env.styles.notSelectedSourceClass);
+        }
+        log(sourceId + ' is selected.');
+        log(sourceId + ' is deselected.')
     }
 
 }

@@ -13,7 +13,8 @@ export default class Model{
         
 
         this.currentNews;
-        this.currentSources;
+        this.selectedSources = [];
+        this.allSources;
         
         this.newsAvailable = 0;
         this.pagesLoaded = 0;
@@ -103,10 +104,9 @@ export default class Model{
         return response.articles;
     }
 
-    LoadMore(){
+    LoadMore() {
         log("load more");
-        if (Math.min(this.newsAvailable, Env.maxNewsAllowed) > this.pagesLoaded * this.pageLength)
-        {
+        if (Math.min(this.newsAvailable, Env.maxNewsAllowed) > this.pagesLoaded * this.pageLength) {
             this.lastQueryParams['page'] = ++this.pagesLoaded;
             this.view.AddNews(this.GetTopHeadlines(this.lastQueryParams));
             this.view.ToggleBottomInfoAlert(Env.alerts.loaded);
@@ -115,21 +115,37 @@ export default class Model{
         }
     }
 
-    LoadNews(params){
+    LoadNews(params) {
         this.currentNews = this.GetTopHeadlines(params);
         this.view.ShowNews(this.currentNews);
     }
 
-    LoadFromSource(sourceId){
-        this.LoadNews({sources: sourceId});
-        this.view.HighlightSource(sourceId);
+    SetSource(sourceId) {
+        if (this.selectedSources.includes(sourceId)) {
+            this.selectedSources.splice(this.selectedSources.indexOf(sourceId), 1);
+            this.view.DehighlightSource(sourceId);
+        } else {
+            this.selectedSources.push(sourceId);
+            this.view.HighlightSource(sourceId);
+        }
+
+        if (this.selectedSources.length) {
+            this.LoadNews( {sources: this.selectedSources.join(',')} );
+        } else {
+            this.LoadNews();
+        }
     }
 
-    Init(){
+    // LoadFromSource(sourceId){
+    //     this.LoadNews({sources: sourceId});
+    //     this.view.HighlightSource(sourceId);
+    // }
+
+    Init() {
         this.LoadNews();
 
-        this.currentSources = this.GetSources();
-        this.view.ShowSources(this.currentSources);
+        this.allSources = this.GetSources();
+        this.view.ShowSources(this.allSources);
     }
 
 }

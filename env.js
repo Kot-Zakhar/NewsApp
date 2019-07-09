@@ -27,6 +27,10 @@ export default {
     },
     maxNewsAllowed: 40,
     noImageSrc: "./img/noImgProvided.png",
-    prod: true,
+    prod: false,
     debug: "*",
+    styles: {
+        selectedSourceClass: "btn-secondary",
+        notSelectedSourceClass: "btn-light"
+    }
 }

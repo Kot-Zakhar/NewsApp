@@ -11,7 +11,7 @@ export default class Controller{
 
     SourceSelected(sourceId) {
         log("source selected: " + sourceId);
-        this.model.LoadFromSource(sourceId);
+        this.model.SetSource(sourceId);
     }
 
     Init() {
@@ -24,6 +24,9 @@ export default class Controller{
             log("search for: " + search);
             if (search.length >= Env.search.minLength)
                 this.model.LoadNews({ q: search });
+                /* TODO:
+                    !search-phrase removes searches through all the sources, ignoring the selection done previously
+                 */
         })
         document.getElementById("searchText").addEventListener("keyup", (event) => {
             if (event.keyCode == 13) {
